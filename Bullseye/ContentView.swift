@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var alertIsVisible: Bool = false
-    @State private var whosThereIsVisible: Bool = false
+    @State private var sliderValue: Double = 10.0
+    
     var body: some View {
         VStack {
             Text("🎯🎯🎯\nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
@@ -28,27 +29,20 @@ struct ContentView: View {
                 Text("1")
                     .bold()
                     .fontWeight(.black)
-                Slider(value: .constant(50.0), in: 1.0...100.0)
+                Slider(value: self.$sliderValue, in: 1.0...100.0)
                 Text("100")
                     .bold()
                     .fontWeight(.black)
             }
             Button(action: {
-                self.whosThereIsVisible = true
-            }) {
-                Text("Hit Me!")
-            }
-            Button(action: {
                 self.alertIsVisible = true
             }) {
-                Text("Knock Knock?")
+                Text("Hit Me!")
             }
             .alert(isPresented: $alertIsVisible, content: {
                 return Alert(title: Text("Hello there!"), message: Text(("This is my first pop-up.")), dismissButton:.default(Text("Awesome!")))
             })
-            .alert(isPresented: $alertIsVisible, content: {
-                return Alert(title: Text("Who's There?"), message: Text(("Hu Jintao")), dismissButton:.default(Text("Awesome!")))
-            })
+
 
         }
         
