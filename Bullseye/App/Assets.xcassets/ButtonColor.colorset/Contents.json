@@ -5,24 +5,16 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0x4A",
-          "green" : "0x57",
-          "red" : "0xFC"
+          "blue" : "0xFC",
+          "green" : "0x5A",
+          "red" : "0x48"
         }
       },
-      "display-gamut" : "sRGB",
-      "idiom" : "universal"
-    },
-    {
-      "display-gamut" : "display-P3",
       "idiom" : "universal"
     }
   ],
   "info" : {
     "author" : "xcode",
     "version" : 1
-  },
-  "properties" : {
-    "localizable" : true
   }
 }
