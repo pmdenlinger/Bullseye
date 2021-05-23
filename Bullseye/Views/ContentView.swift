@@ -17,8 +17,8 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             // rgb(243, 248, 253)
-            Color(red: 243.0 / 255.0, green: 248.0 / 255.0, blue: 253.0 / 255.0)
-                .edgesIgnoringSafeArea(.all)
+            Color("BackgroundColor")
+            .edgesIgnoringSafeArea(.all)
             VStack {
                 Text("🎯🎯🎯\nPUT THE BULLSEYE AS CLOSE AS YOU CAN TO")
                     .bold()
