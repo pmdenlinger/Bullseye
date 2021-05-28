@@ -9,6 +9,7 @@ import SwiftUI
 
 struct InstructionText: View {
     var text: String
+    
     var body: some View {
         Text(text.uppercased())
           .bold()
@@ -33,16 +34,6 @@ struct BigNumberText: View {
     }
 }
 
-struct SliderLabelText: View {
-    var text: String
-    
-    var body: some View {
-        Text(text)
-          .bold()
-          .foregroundColor(Color("TextColor"))
-        
-    }
-}
 
 struct TextViews_Previews: PreviewProvider {
     static var previews: some View {
