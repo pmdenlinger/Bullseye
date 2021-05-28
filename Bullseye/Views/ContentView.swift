@@ -25,13 +25,9 @@ struct ContentView: View {
             Text(String(game.target))
             BigNumberText(text: String(game.target))
             HStack {
-              Text("1")
-                .bold()
-                .foregroundColor(Color("TextColor"))
+                SliderLabelText(text:"1")
               Slider(value: $sliderValue, in: 1.0...100.0)
-              Text("100")
-                .bold()
-                .foregroundColor(Color("TextColor"))
+                SliderLabelText(text: "100")
             }
             .padding()
             Button(action: {
