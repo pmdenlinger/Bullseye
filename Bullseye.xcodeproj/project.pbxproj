@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE7E01D9266194CB00675D86 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E01D8266194CB00675D86 /* Shapes.swift */; };
+		CE7E01DB2661999900675D86 /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E01DA2661999900675D86 /* RoundViews.swift */; };
 		CEA0BF32265881A800962C57 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0BF31265881A800962C57 /* BullseyeApp.swift */; };
 		CEA0BF34265881A800962C57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0BF33265881A800962C57 /* ContentView.swift */; };
 		CEA0BF36265881B000962C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA0BF35265881B000962C57 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		CE7E01D8266194CB00675D86 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		CE7E01DA2661999900675D86 /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
 		CEA0BF2E265881A800962C57 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA0BF31265881A800962C57 /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
 		CEA0BF33265881A800962C57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				CEA0BF33265881A800962C57 /* ContentView.swift */,
 				CEA67DBE265F311A002CD271 /* TextViews.swift */,
 				CE7E01D8266194CB00675D86 /* Shapes.swift */,
+				CE7E01DA2661999900675D86 /* RoundViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				CE7E01D9266194CB00675D86 /* Shapes.swift in Sources */,
 				CEA0BF442659E01700962C57 /* Game.swift in Sources */,
 				CEA0BF32265881A800962C57 /* BullseyeApp.swift in Sources */,
+				CE7E01DB2661999900675D86 /* RoundViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
