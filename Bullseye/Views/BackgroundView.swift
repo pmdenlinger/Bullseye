@@ -28,7 +28,11 @@ struct TopView: View {
     
     var body: some View {
         HStack {
+            Button(action:  {
+                game.restart()
+            }) {
             RoundedImageViewStroked(systemName: "arrow.counterclockwise")
+            }
             Spacer()
             RoundedImageViewFilled(systemName: "list.dash")
         }
@@ -63,5 +67,6 @@ struct BottomView: View {
 struct BackgroundView_Previews: PreviewProvider {
     static var previews: some View {
         BackgroundView(game: .constant(Game()))
+        }
     }
-}
+
