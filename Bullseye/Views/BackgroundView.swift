@@ -64,13 +64,16 @@ struct BottomView: View {
 }
 
 struct RingsView: View {
+    
+    @Environment(\.colorScheme) var colorScheme
+    
     var body: some View {
         ZStack {
             Color("BackgroundColor")
                 .edgesIgnoringSafeArea(.all)
             ForEach(1..<6) { ring in
                 let size = CGFloat(ring * 100)
-            
+                let opacity = colorScheme == .dark ? 0.1 : 0.3
             Circle()
                 .stroke(lineWidth: 20.0)
                 .fill(
