@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE5060ED2662AC38000EEEBF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5060EC2662AC38000EEEBF /* BackgroundView.swift */; };
 		CE5060EF26633744000EEEBF /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5060EE26633741000EEEBF /* PointsView.swift */; };
+		CE5060F126642011000EEEBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5060F026642010000EEEBF /* Constants.swift */; };
 		CE7E01D9266194CB00675D86 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E01D8266194CB00675D86 /* Shapes.swift */; };
 		CE7E01DB2661999900675D86 /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E01DA2661999900675D86 /* RoundViews.swift */; };
 		CEA0BF32265881A800962C57 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0BF31265881A800962C57 /* BullseyeApp.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		CE5060EC2662AC38000EEEBF /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		CE5060EE26633741000EEEBF /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		CE5060F026642010000EEEBF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CE7E01D8266194CB00675D86 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		CE7E01DA2661999900675D86 /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
 		CEA0BF2E265881A800962C57 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA0BF432659E01700962C57 /* Game.swift */,
+				CE5060F026642010000EEEBF /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				CE5060EF26633744000EEEBF /* PointsView.swift in Sources */,
 				CE5060ED2662AC38000EEEBF /* BackgroundView.swift in Sources */,
 				CEA0BF442659E01700962C57 /* Game.swift in Sources */,
+				CE5060F126642011000EEEBF /* Constants.swift in Sources */,
 				CEA0BF32265881A800962C57 /* BullseyeApp.swift in Sources */,
 				CE7E01DB2661999900675D86 /* RoundViews.swift in Sources */,
 			);
