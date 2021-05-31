@@ -75,11 +75,13 @@ struct PreviewView: View {
 
 struct RoundViews_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            PreviewView()
-            PreviewView()
-        }
-        PreviewView()
+        ContentView()
+        ContentView()
+            .previewLayout(.fixed(width: 568, height: 320))
+        ContentView()
             .preferredColorScheme(.dark)
+        ContentView()
+            .preferredColorScheme(.dark)
+            .previewLayout(.fixed(width: 568, height: 320))
     }
 }
